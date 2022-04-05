@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: rgb(200, 200, 200);
+}
+.main-container{
+    width: 512px;
+    height: 512px;
+    margin: 10% auto;
+    display:flex;
+    background: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-element{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.color{
+    background: red
+}
